@@ -1,0 +1,18 @@
+{
+  "name": "submission",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@hono/node-server": "^1.13.7",
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
